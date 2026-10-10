@@ -11,9 +11,9 @@ pipeline {
 
         stage('Check Terraform') {
             steps {
-                bat 'terraform version'
-                bat 'terraform init -backend=false'
-                bat 'terraform validate'
+                sh 'terraform version'
+                sh 'terraform init -backend=false'
+                sh 'terraform validate'
             }
         }
     }
