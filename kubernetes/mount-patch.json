@@ -1,0 +1,29 @@
+{
+  "spec": {
+    "template": {
+      "spec": {
+        "containers": [
+          {
+            "name": "my-web-app",
+            "volumeMounts": [
+              {
+                "name": "manisha-webpage",
+                "mountPath": "/usr/share/nginx/html/index.html",
+                "subPath": "index.html",
+                "readOnly": true
+              }
+            ]
+          }
+        ],
+        "volumes": [
+          {
+            "name": "manisha-webpage",
+            "configMap": {
+              "name": "manisha-webpage"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
