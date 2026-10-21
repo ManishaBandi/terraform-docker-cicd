@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project demonstrates DevOps automation using Git, Jenkins,
-Terraform, Docker, Kubernetes, and Argo CD.
+Terraform, Docker, Kubernetes, and Argo CD. Now i am starting new project finops.
 
 ## Project Goals
 - Manage project changes using Git and GitHub.
