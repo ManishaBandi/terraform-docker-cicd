@@ -3,7 +3,7 @@
 ## Project Overview
 
 This project demonstrates DevOps automation using Git, Jenkins,
-Terraform, Docker, Kubernetes, and Argo CD. now i am starting finops project.
+Terraform, Docker, Kubernetes, and Argo CD. now i am starting finops project.Maneesha.
 
 ## Project Goals
 
